@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
+
+.Navbar {
+    color: white;
+    /* border: 1px solid red; */
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar-items {
+    display: flex;
+    width: 777px;
+    height: 18px;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.Navbar-items div {
+    cursor: pointer;
+}
+
+.Navbar-items>:first-child {
+    color: #881487;
+}
