@@ -20,6 +20,12 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+.Navbar-mobile {
+    display: none;
 }
 
 .Navbar-items div {
@@ -28,4 +34,34 @@
 
 .Navbar-items>:first-child {
     color: #881487;
+}
+
+@media screen and (max-width: 700px) {
+    .Navbar-items {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .Navbar-items {
+        display: none;
+    }
+
+    .Navbar-mobile {
+        display: flex;
+        width: 400px;
+        height: 18px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        justify-content: space-between;
+    }
+
+    .Navbar-mobile>:first-child {
+        color: #881487;
+    }
 }

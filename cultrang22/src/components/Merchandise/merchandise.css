@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+.Merchandise {
+    height: 120vh;
+}
+
+.Merchandise-heading {
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 70px;
+    margin-bottom: 5vh;
+}
+
+.Merchandise-items {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Merchandise-items img {
+    width: 30vw;
+    height: 40vw;
+}

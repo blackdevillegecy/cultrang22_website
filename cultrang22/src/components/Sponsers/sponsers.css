@@ -1,7 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+.Sponsers-heading {
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 70px;
+    margin-bottom: 5vh;
+}
+
 .Sponsers {
-    height: 100vh;
+    display: block;
+    height: 150vh;
     border: 1px solid white;
-    display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.Sponsers-slider-headings {
+    margin-left: 10vw;
+    margin-bottom: 2.5vh;
+    font-size: 21px;
+    font-family: 'Work Sans';
+}
+
+.Sponsers-social-media {
+    color: #881487;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+    /* border: 1px solid red; */
+    margin-top: 2.5vh;
+}
+
+.Sponsers-social-media div{
+    cursor: pointer;
 }

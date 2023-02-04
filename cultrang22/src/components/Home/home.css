@@ -46,7 +46,7 @@
     width: 250px;
     float: right;
     border-radius: 50px 0 0 50px;
-    font-family: 'Work Sans';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 200;
     font-size: 30px;
@@ -70,4 +70,62 @@
 
 .Home-social-media div{
     cursor: pointer;
+}
+
+@media screen and (max-width: 940px) {
+    .Home-logo img {
+        width: 700px;
+        height: 210px;
+    }
+
+    .Home-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Home-logo img {
+        width: 500px;
+        height: 150px;
+    }
+
+    .Home-text {
+        font-size: 15px;
+    }
+
+    .Home-CA {
+        height: 40px;
+    }
+
+    .Home-CA div {
+        width: 200px;
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .Home-logo img {
+        width: 400px;
+        height: 120px;
+    }
+
+    .Home-text {
+        font-size: 12px;
+    }
+
+    .Home-CA {
+        height: 35px;
+    }
+
+    .Home-CA div {
+        width: 200px;
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Home-logo img {
+        width: 300px;
+        height: 90px;
+    }
 }
