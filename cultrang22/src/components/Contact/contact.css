@@ -1,4 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
 .Contact {
     height: 100vh;
     border: 1px solid white;
+    /* Contact */
+
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    overflow-y: scroll;
+
+    background: #FFFFFF;
 }
+
+    /* Rectangle 1 */
+.Rectangle1 {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+
+    background: #000000;
+
+}
+    /* Twitter */
+
+.Contact-social-media {
+    color: #881487;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+    /* border: 1px solid red; */
+    margin: 15vh;
+}
+
+.Home-social-media div{
+    cursor: pointer;
+}
+
+    /* Group 46 */
+.grp_46 {
+    position: absolute;
+    width: 588px;
+    height: 219px;
+    left: 426px;
+    top: 183px;
+
+
+
+    /* যোগাযোগ করুন */
+
+    position: absolute;
+    width: 588px;
+    height: 135px;
+    left: 426px;
+    top: 267px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 135px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+
+        /* Group 48 */
+
+        position: absolute;
+        width: 524px;
+        height: 106px;
+        left: 458px;
+        top: 183px;
+
+
+
+            /* contact us */
+
+            position: absolute;
+            width: 471px;
+            height: 106px;
+            left: 458px;
+            top: 183px;
+
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 90px;
+            line-height: 106px;
+            /* identical to box height */
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #FFFFFF;
+
+
+
+            /* / */
+
+            position: absolute;
+            width: 41px;
+            height: 106px;
+            left: 941px;
+            top: 183px;
+
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 90px;
+            line-height: 106px;
+
+    
+            /* identical to box height */
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #FFFFFF;
+}
+
+
+    /* Divyanshi Govil */
+.divyanshi{
+    position: absolute;
+    width: 223px;
+    height: 35px;
+    left: 221px;
+    top: 556px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #881487;
+}
+
+
+    /* Jay Jawale */
+.jay_jawale {
+    position: absolute;
+    width: 161px;
+    height: 35px;
+    left: 1059px;
+    top: 556px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #881487;
+
+}
+
+    /* 9407881499 */
+.divyanshi_number{
+    position: absolute;
+    width: 146px;
+    height: 29px;
+    left: 221px;
+    top: 623px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ABABAB;
+
+}
+
+    /* divyanshi.govil.20031@iitgoa.ac.in */
+.divyanshi_email{
+    position: absolute;
+    width: 406px;
+    height: 29px;
+    left: 221px;
+    top: 652px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ABABAB;
+}
+
+
+    /* 9579608314 */
+.jay_jawale_no{
+    position: absolute;
+    width: 146px;
+    height: 29px;
+    left: 1075px;
+    top: 623px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ABABAB;
+}
+
+
+    /* jay.jawale.21063@iitgoa.ac.in */
+.jay_jawale_email{
+    position: absolute;
+    width: 350px;
+    height: 29px;
+    left: 871px;
+    top: 652px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ABABAB;
+}
+
+
+    /* Group 53 */
+.grp_53 {
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+
+
+    /* Navbar */
+
+        position: absolute;
+        width: 1440px;
+        height: 100px;
+        left: 0px;
+        top: 0px;
+
+        background: #000000;
+            /* Nav */
+
+            position: absolute;
+            width: 777px;
+            height: 18px;
+            left: 332px;
+            top: 41px;
+
+}
+
+    /* HOME */
+.home_button {
+    position: absolute;
+    width: 45px;
+    height: 18px;
+    left: 332px;
+    top: 41px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ABABAB;
+}
+
+
+    /* ABOUT */
+.about_button {
+    position: absolute;
+    width: 52px;
+    height: 18px;
+    left: 416px;
+    top: 41px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ABABAB;
+
+
+}
+    /* EVENTS */
+.events_button {
+    position: absolute;
+    width: 59px;
+    height: 18px;
+    left: 510px;
+    top: 41px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ABABAB;
+
+}
+
+    /* MERCHANDISE */
+.merchandise_button {
+    position: absolute;
+    width: 110px;
+    height: 18px;
+    left: 611px;
+    top: 41px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ABABAB;
+}
+
+
+    /* RULEBOOK */
+.rulebook_button {
+    position: absolute;
+    width: 82px;
+    height: 18px;
+    left: 890px;
+    top: 41px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ABABAB;
+
+}
+
+    /* SPONSORS */
+.sponsors_button {
+    position: absolute;
+    width: 82px;
+    height: 18px;
+    left: 763px;
+    top: 41px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ABABAB;
+}
+
+
+    /* CONTACT US */
+.contact_us_button {
+    position: absolute;
+    width: 95px;
+    height: 18px;
+    left: 1014px;
+    top: 41px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #881487;
+}
+
