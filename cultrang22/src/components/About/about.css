@@ -2,3 +2,294 @@
     height: 100vh;
     border: 1px solid white;
 }
+
+.About Rect {
+    /* Rectangle 1 */
+    position: absolute;
+    width: 1440px;
+    height: 2048px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+
+.About-social-media {
+    color: #881487;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+    /* border: 1px solid red; */
+    margin: 15vh;
+}
+
+.About-social-media div {
+    cursor: pointer;
+}
+
+.About-Text1 {
+    /* Cultrang is a celebration of cultures, not just as an institution, but as a country. It aims at instilling a sense of belongingness by being a melting pot of ideas open to students of all disciplines. With intriguing events and competitions along with resourceful workshops by experts and professionals Cultrang ‘23 is all set to be an enthralling experience for everyone involved. */
+    position: absolute;
+    width: 1000px;
+    height: 145px;
+    left: 220px;
+    top: 643px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ABABAB;
+}
+
+.About-MoonPhasePic {
+    /* The Best Zodiac & Astrology Wallpaper For Your iPhone _ Tea & Rosemary */
+    position: absolute;
+    width: 157.79px;
+    height: 1000px;
+    left: 220px;
+    top: 540.79px;
+    background: url(https://res.cloudinary.com/dalnjv5uu/image/upload/v1675501526/samples/CultrangWeb23/The_Best_Zodiac_Astrology_Wallpaper_For_Your_iPhone___Tea_Rosemary_rwzxye.png);
+    transform: rotate(-90deg);
+}
+
+.About-title {
+    /* Group 44 */
+    position: absolute;
+    width: 602px;
+    height: 119px;
+    left: 419px;
+    top: 176px;
+    /* about */
+    position: absolute;
+    width: 256px;
+    height: 106px;
+    left: 419px;
+    top: 176px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 106px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    /* / */
+    position: absolute;
+    width: 41px;
+    height: 106px;
+    left: 693px;
+    top: 176px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 106px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    /* के बारे में */
+    position: absolute;
+    width: 269px;
+    height: 105px;
+    left: 752px;
+    top: 190px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 105px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.About-EarthPic {
+    /* earthAsset 2pink */
+    position: absolute;
+    width: 321px;
+    height: 321px;
+    left: 560px;
+    top: 897px;
+    background: url("https://res.cloudinary.com/dalnjv5uu/image/upload/v1675501529/samples/CultrangWeb23/earthAsset_2pink_mlrmpa.png");
+}
+
+.About-Text2 {
+    /* The theme of Cultrang this year is 'A Time Peregrination'. This three-day fest guarantees a wholesome journey through time as we explore the evolution of our diverse art, music and dance culture over the years. It's time to pause our busy schedules and dive into the good vibes of Cultrang'23! Let's hit the play button and indulge in the present moment of celebration. With all the mesmerising cultural richness from the recent past few decades, CultRang'23 would leave no stone unturned in helping us rewind – and switch to the vivid time zones of traditional art forms and timeless film classics through the multitude of opportunities presented here. This way, we may begin to appreciate how these works of art have evolved and mixed with international colour to give us the uniquely globalised style that is so in vogue today. */
+    position: absolute;
+    width: 1000px;
+    height: 362px;
+    left: 220px;
+    top: 1450px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ABABAB;
+}
+
+.About-PPR {
+    /* Group 43 */
+    position: absolute;
+    width: 1000px;
+    height: 64.11px;
+    left: 220px;
+    top: 1321px;
+    /* Group 42 */
+    position: absolute;
+    width: 1000px;
+    height: 64.11px;
+    left: 220px;
+    top: 1321px;
+    /* Group 40 */
+    position: absolute;
+    width: 227.2px;
+    height: 62.29px;
+    left: 578.62px;
+    top: 1322px;
+    /* Vector */
+    position: absolute;
+    left: 40.18%;
+    right: 56.44%;
+    top: 129.11%;
+    bottom: -35.18%;
+    background: #FADFF8;
+    /* Vector */
+    position: absolute;
+    left: 44.38%;
+    right: 52.47%;
+    top: 129.11%;
+    bottom: -35.18%;
+    background: #FADFF8;
+    /* Vector */
+    position: absolute;
+    left: 48.28%;
+    right: 47.41%;
+    top: 129.1%;
+    bottom: -35.16%;
+    background: #79197D;
+    /* Vector */
+    position: absolute;
+    left: 52.02%;
+    right: 44.04%;
+    top: 129.11%;
+    bottom: -35.18%;
+    background: #FADFF8;
+    /* Group 39 */
+    position: absolute;
+    width: 344.7px;
+    height: 62.18px;
+    left: 875.3px;
+    top: 1322px;
+    /* Vector */
+    position: absolute;
+    left: 71.04%;
+    right: 26.8%;
+    top: 129.12%;
+    bottom: -35.17%;
+    background: #79197D;
+    /* Vector */
+    position: absolute;
+    left: 68.88%;
+    right: 28.95%;
+    top: 129.12%;
+    bottom: -35.17%;
+    background: #79197D;
+    /* Vector */
+    position: absolute;
+    left: 74.13%;
+    right: 24.97%;
+    top: 129.1%;
+    bottom: -35.17%;
+    background: #FADFF8;
+    /* Vector */
+    position: absolute;
+    left: 76.14%;
+    right: 20.17%;
+    top: 129.1%;
+    bottom: -35.17%;
+    background: #FADFF8;
+    /* Vector */
+    position: absolute;
+    left: 80.95%;
+    right: 15.28%;
+    top: 129.1%;
+    bottom: -35.17%;
+    background: #FADFF8;
+    /* Vector */
+    position: absolute;
+    left: 60.79%;
+    right: 35.51%;
+    top: 129.1%;
+    bottom: -35.17%;
+    background: #FADFF8;
+    /* Vector */
+    position: absolute;
+    left: 65.2%;
+    right: 31.49%;
+    top: 129.1%;
+    bottom: -35.17%;
+    background: #FADFF8;
+    /* Group 41 */
+    position: absolute;
+    width: 289.58px;
+    height: 64.11px;
+    left: 220px;
+    top: 1321px;
+    /* Vector */
+    position: absolute;
+    left: 23.37%;
+    right: 75.49%;
+    top: 129%;
+    bottom: -35.23%;
+    background: #79197D;
+    /* Vector */
+    position: absolute;
+    left: 25.84%;
+    right: 73.02%;
+    top: 129%;
+    bottom: -35.23%;
+    background: #79197D;
+    /* Vector */
+    position: absolute;
+    left: 27.5%;
+    right: 68.76%;
+    top: 129%;
+    bottom: -35.26%;
+    background: #FADFF8;
+    /* Vector */
+    position: absolute;
+    left: 32.08%;
+    right: 64.61%;
+    top: 129.1%;
+    bottom: -35.17%;
+    background: #FADFF8;
+    /* Vector */
+    position: absolute;
+    left: 15.28%;
+    right: 81.34%;
+    top: 129.1%;
+    bottom: -35.18%;
+    background: #FADFF8;
+    /* Vector */
+    position: absolute;
+    left: 18.6%;
+    right: 77.19%;
+    top: 129.1%;
+    bottom: -35.17%;
+    background: #FADFF8;
+}
