@@ -1,4 +1,128 @@
 .Events {
     height: 100vh;
     border: 1px solid white;
-}
+    position: relative;
+    overflow-y: scroll;
+  
+    background: #FFFFFF;
+  
+  }
+  
+  .Events-bg{
+    position: absolute;
+    width: 1440px;
+    height: 2048px;
+    left: 0px;
+    top: 0px;
+  
+    background: #000000;
+  }
+  .Events-social-media {
+    color: #881487;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+    /* border: 1px solid red; */
+    margin: 15vh;
+  }
+  
+  .Events-social-media div{
+    cursor: pointer;
+  }
+  
+  /* Group 46 */
+  .Events-title{
+  /* events */
+    position: absolute;
+    width: 292px;
+    height: 106px;
+    left: 320px;
+    top: 179px;
+  
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 106px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #FFFFFF;
+  }
+  
+  
+  /* DANCE */
+  .Events-section1{
+    position: absolute;
+    width: 120px;
+    height: 41px;
+    left: 220px;
+    top: 383px;
+  
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #FFFFFF;
+  }
+  
+  /* MUSIC */
+  .Events-section2{
+  position: absolute;
+  width: 113px;
+  height: 41px;
+  left: 224px;
+  top: 897px;
+  
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 41px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+  }
+  
+  .Events-section3{
+  position: absolute;
+  width: 185px;
+  height: 41px;
+  left: 224px;
+  top: 1394px;
+  
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 41px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+  }
+  
+  .Events-rect{
+  
+  /* Rectangle */
+  position: relative;
+  width: 320px;
+  height: 325px;
+  
+  background: #D9D9D9;
+  }
