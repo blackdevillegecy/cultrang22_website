@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Rajdhani:wght@500&display=swap');
+
+span {
+    letter-spacing: 5px;
+    font-size: 75px;
+    font-family: "Bebas Neue"
+}
 
 .Merchandise {
     height: 120vh;
+    /* border: 1px solid red; */
+    padding-top: 15vh;
 }
 
 .Merchandise-heading {
@@ -20,4 +29,31 @@
 .Merchandise-items img {
     width: 30vw;
     height: 40vw;
+}
+
+.Merchandise-social-media {
+    color: #881487;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+    /* border: 1px solid red; */
+    margin-top: 2.5vh;
+}
+
+.Merchandise-social-media div {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .Merchandise-heading {
+        font-size: 60px;
+    }
+}
+
+  @media screen and (max-width: 810px) {
+    .Merchandise-heading {
+        font-size: 50px;
+    }
 }

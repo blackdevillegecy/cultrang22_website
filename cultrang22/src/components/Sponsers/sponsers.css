@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
 
+.Sponsers {
+    display: block;
+    height: 150vh;
+    /* border: 1px solid white; */
+    align-items: center;
+    justify-content: center;
+    padding-top: 12.5vh;
+}
+
 .Sponsers-heading {
     text-align: center;
     font-family: 'Work Sans';
@@ -7,16 +16,8 @@
     margin-bottom: 5vh;
 }
 
-.Sponsers {
-    display: block;
-    height: 150vh;
-    border: 1px solid white;
-    align-items: center;
-    justify-content: center;
-}
-
 .Sponsers-slider-headings {
-    margin-left: 10vw;
+    text-align: center;
     margin-bottom: 2.5vh;
     font-size: 21px;
     font-family: 'Work Sans';
@@ -35,4 +36,16 @@
 
 .Sponsers-social-media div{
     cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .Sponsers-heading {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .Sponsers-heading {
+        font-size: 50px;
+    }
 }

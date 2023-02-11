@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 .Home {
     height: 87vh;
     color: white;
     /* border: 1px solid red; */
+    padding-top: 10vh;
 }
 
 .Home-logo {
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
     /* border: 1px solid red; */
 }
 
 .Home-logo img{
-    width: 900px;
-    height: 269.85px;
+    width: 800px;
+    height: 309.5px;
     /* border: 1px solid red; */
 }
 
@@ -35,11 +36,37 @@
     /* border: 1px solid red; */
 }
 
+.Home-Accomodation, .Home-Passes {
+    color: white;
+    width: 100%;
+    height: 50px;
+    /* margin-top: 7.5vh; */
+    font-family: 'Montserrat', sans-serif;
+    /* border: 1px solid red; */
+}
+
+.Home-Accomodation div, .Home-Passes div {
+    width: 250px;
+    border-radius: 0 50px 50px 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border: 1px solid #881487;
+    text-align: right;
+}
+
 .Home-CA {
     color: white;
     width: 100%;
     height: 50px;
-    margin-top: 7.5vh;
+    /* margin-top: 7.5vh; */
+    font-family: 'Montserrat', sans-serif;
+    /* border: 1px solid red; */
 }
 
 .Home-CA div {
@@ -65,7 +92,7 @@
     justify-content: center;
     gap: 4px;
     /* border: 1px solid red; */
-    margin: 15vh;
+    margin: 7.5vh;
 }
 
 .Home-social-media div{

@@ -1,0 +1,12 @@
+.Event-Dance {
+    color: white;
+    height: 98vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.rec-dot {
+    visibility: hidden;
+}

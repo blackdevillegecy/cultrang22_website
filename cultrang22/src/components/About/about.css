@@ -1,4 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
 .About {
     height: 200vh;
     /* border: 1px solid white; */
+    padding-top: 12.5vh;
+}
+
+.About-title {
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Work Sans';
+    margin-bottom: 10vh;
+}
+
+.About-MoonPhasePic {
+    /* border: 1px solid white; */
+    width: 40vw;
+    margin: auto;
+    margin-bottom: 7.5vh;
+}
+
+.About-MoonPhasePic img {
+    width: 100%;
+}
+
+.About-Text1 {
+    width: 70%;
+    text-align: center;
+    font-family: 'Work Sans';
+    margin: auto;
+    margin-bottom: 7.5vh;
+}
+
+.About-EarthPic {
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.About-PPR {
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.About-PPR img {
+    width: 900px;
+}
+
+.About-EarthPic img {
+    width: 25%;
+}
+
+.About-social-media {
+    color: #881487;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+}
+
+@media screen and (max-width: 1000px) {
+    .About-PPR img{
+        width: 700px;
+    }
+
+    .About-title {
+        font-size: 60px;
+    }
+
+    .About-Text1 {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .About-PPR img {
+        width: 500px;
+    }
+
+    .About-title {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .About-PPR img {
+        width: 350px;
+    }
 }

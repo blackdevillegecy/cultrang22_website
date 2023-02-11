@@ -2,9 +2,10 @@ import React from "react";
 import "./sponsers.css";
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
-import TwitterIcon from '@mui/icons-material/Twitter';
-import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import { Link } from "react-router-dom";
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -16,8 +17,8 @@ const breakPoints = [
 
 export default function Sponsers() {
     return (
-        <div className="Sponsers">
-          <div className="Sponsers-heading">sponsors</div><br/>
+        <div className="Sponsers" id="sponsers">
+          <div className="Sponsers-heading">sponsors/પ્રાયોજકો</div><br/>
           <div className="Sponsers-slider-headings">TITLE SPONSORS</div>
           <Carousel breakPoints={breakPoints}>
             <Item>1</Item>
@@ -45,9 +46,9 @@ export default function Sponsers() {
             <Item>5</Item>
           </Carousel>
             <div className="Sponsers-social-media">
-                <div><TwitterIcon sx={{fontSize: '30px'}} /></div>
-                <div><FacebookIcon sx={{fontSize: '30px'}} /></div>
-                <div><InstagramIcon sx={{fontSize: '30px'}} /></div>
+                <Link to="https://in.linkedin.com/company/cultrang"><div><LinkedInIcon sx={{fontSize: '30px'}} /></div></Link>
+                <Link to="https://www.instagram.com/cultrangiitgoa/?hl=en"><div><InstagramIcon sx={{fontSize: '30px'}} /></div></Link>
+                <div><YouTubeIcon sx={{fontSize: '30px'}} /></div>
             </div>
         </div>
     );

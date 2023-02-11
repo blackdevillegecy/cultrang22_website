@@ -1,4 +1,58 @@
 .Events {
-    height: 100vh;
-    border: 1px solid white;
+    height: 120vh;
+    /* border: 1px solid white; */
+    position: relative;
+    padding-top: 12.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+  
+.Events-social-media {
+  color: #881487;
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4px;
+  /* border: 1px solid red; */
+  margin: 15vh;
+}
+
+.Events-social-media div{
+  cursor: pointer;
+}
+.Events-title{
+  /* border: 1px solid red; */
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+/* square buttons */
+.rec.rec-arrow {
+  border-radius: 0;
+}
+/* round buttons on hover */
+.rec.rec-arrow:hover {
+  border-radius: 50%;
+}
+/* hide disabled buttons */
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+  .Events-title {
+      font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .Events-title {
+      font-size: 50px;
+  }
 }

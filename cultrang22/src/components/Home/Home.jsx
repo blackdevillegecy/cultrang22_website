@@ -1,19 +1,22 @@
 import React from "react";
 import "./home.css";
-import TwitterIcon from '@mui/icons-material/Twitter';
-import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import { Link } from "react-router-dom";
 
 export default function Home () {
     return (
-        <div className="Home">
-            <div className="Home-logo"><img src="https://res.cloudinary.com/dwjesc65k/image/upload/v1674363032/cultrang%2723/logo_dnscey.png" alt="" /></div>
-            <div className="Home-text">PLAY|PAUSE|REWIND</div>
-            <div className="Home-CA"><div>CA Portal</div></div>
+        <div className="Home" id="home">
+            <div className="Home-logo"><img src="https://res.cloudinary.com/dwjesc65k/image/upload/v1676053926/cultrang%2723/final_logo-06_h8neoj.png" alt="" /></div>
+            {/* <div className="Home-text">PLAY|PAUSE|REWIND</div> */}
+            <Link to="https://forms.gle/6phvmJB1GpxQHU5R8"><div className="Home-Accomodation"><div>Accomodation</div></div></Link>
+            <Link to="https://forms.gle/shpxwvhVZp8nsaT58"><div className="Home-CA"><div>CA Portal</div></div></Link>
+            <div className="Home-Passes"><div>Passes</div></div>
             <div className="Home-social-media">
-                <div><TwitterIcon sx={{fontSize: '30px'}} /></div>
-                <div><FacebookIcon sx={{fontSize: '30px'}} /></div>
-                <div><InstagramIcon sx={{fontSize: '30px'}} /></div>
+                <Link to="https://in.linkedin.com/company/cultrang"><div><LinkedInIcon sx={{fontSize: '30px'}} /></div></Link>
+                <Link to="https://www.instagram.com/cultrangiitgoa/?hl=en"><div><InstagramIcon sx={{fontSize: '30px'}} /></div></Link>
+                <div><YouTubeIcon sx={{fontSize: '30px'}} /></div>
             </div>
         </div>
     );

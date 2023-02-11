@@ -1,4 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
 .Contact {
-    height: 100vh;
+    height: 90vh;
+}
+
+.Contact-heading {
+    margin-top: 10vh;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Work Sans';
+    margin-bottom: 20vh;
+}
+
+.Contact-names {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    margin: auto;
+    width: 70%;
     /* border: 1px solid white; */
+    margin-bottom: 40vh;
+    font-family: 'Work Sans';
+    color: #ABABAB;
+}
+
+.Contact-names div>:first-child {
+    color: #881487;
+    font-size: 20px;
+}
+
+.Contact-names>:nth-child(2) {
+    text-align: right;
+}
+
+.Contact-social-media {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+    color: #881487;
+}
+
+@media screen and (max-width: 1000px) {
+    .Contact-heading {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .Contact-names {
+        display: block;
+        text-align: center;
+    }
+    .Contact-names>:first-child {
+        margin-bottom: 10vh;
+    }
+    
+    .Contact-names>:nth-child(2) {
+        text-align: center;
+        
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .Contact-heading {
+        font-size: 50px;
+    }
 }
