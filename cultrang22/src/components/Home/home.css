@@ -102,11 +102,23 @@
 @media screen and (max-width: 940px) {
     .Home-logo img {
         width: 700px;
-        height: 210px;
+        height: 240px;
+    }
+
+    .Home-Accomodation div, .Home-Passes div {
+        font-size: 23px;
+    }
+
+    .Home-CA div {
+        font-size: 23px;
     }
 
     .Home-text {
         font-size: 20px;
+    }
+
+    .Home {
+        padding-top: 7.5vh;
     }
 }
 
@@ -133,26 +145,61 @@
 @media screen and (max-width: 540px) {
     .Home-logo img {
         width: 400px;
-        height: 120px;
+        height: 150px;
     }
 
     .Home-text {
         font-size: 12px;
     }
 
+    .Home-Accomodation div, .Home-Passes div {
+        font-size: 19px;
+    }
+
+    .Home-CA {
+        margin-top: 2.5vh;
+    }
+
+    .Home-Accomodation, .Home-Passes {
+        margin-top: 5vh;
+    }
     .Home-CA {
         height: 35px;
     }
 
     .Home-CA div {
-        width: 200px;
+        width: 250px;
         font-size: 19px;
+        border-radius: 0 50px 50px 0;
+        float: left;
     }
 }
 
 @media screen and (max-width: 400px) {
     .Home-logo img {
         width: 300px;
-        height: 90px;
+        height: 120px;
+    }
+
+    .Home-CA {
+        margin-top: 3vh;
+    }
+    
+    .Home-CA div {
+        width: 175px;
+    border-radius: 0 50px 50px 0;
+        float: left;
+    }
+
+    .Home-Accomodation, .Home-Passes {
+        margin-top: 6vh;
+    }
+
+    .Home-Accomodation div {
+        width: 175px;
+    }
+
+    .Home-Passes div {
+        width: 175px;
     }
 }

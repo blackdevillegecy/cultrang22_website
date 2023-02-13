@@ -47,6 +47,8 @@ a {
 
 .Navbar-mobile {
     display: none;
+    z-index: +100000;
+    background-attachment: fixed;
 }
 
 .Navbar-items div {

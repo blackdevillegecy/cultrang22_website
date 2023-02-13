@@ -18,7 +18,7 @@ export default function About () {
             <div className="About-social-media">
                 <Link to="https://in.linkedin.com/company/cultrang"><div><LinkedInIcon sx={{fontSize: '30px'}} /></div></Link>
                 <Link to="https://www.instagram.com/cultrangiitgoa/?hl=en"><div><InstagramIcon sx={{fontSize: '30px'}} /></div></Link>
-                <div><YouTubeIcon sx={{fontSize: '30px'}} /></div>
+                <Link to="https://www.youtube.com/watch?v=ciJZMCwiPrA"><div><YouTubeIcon sx={{fontSize: '30px'}} /></div></Link>
             </div>
         </div>
     );

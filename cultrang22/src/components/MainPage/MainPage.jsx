@@ -15,8 +15,8 @@ export default function MainPage () {
             <Home />
             <About />
             <Events />
-            <Merchandise />
-            <Sponsers />
+            {/* <Merchandise /> */}
+            {/* <Sponsers /> */}
             <Contact />
         </div>
     );

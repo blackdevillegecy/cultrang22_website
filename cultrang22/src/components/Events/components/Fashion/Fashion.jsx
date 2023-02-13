@@ -14,7 +14,7 @@ export default function Fashion() {
     return (
         <div className="Event-Fashion" >
             <Carousel breakPoints={breakPoints} enableSwipe={true} enableMouseSwipe={true} >
-            <Item link="https://res.cloudinary.com/dwjesc65k/image/upload/v1675543613/cultrang%2723/event-poster_fb686j.webp" registration="https://forms.gle/qiNzV8u4GsX3FcvX9" rulebook="https://drive.google.com/file/d/10iFxnk_GBPRTyzZTtbQYNgnlWIQVZXr7/view"></Item>
+            <Item link="https://res.cloudinary.com/dwjesc65k/image/upload/v1676287365/Poster_Mr_Ms_Cultrang_ynohgs.png" registration="https://forms.gle/qiNzV8u4GsX3FcvX9" rulebook="https://drive.google.com/file/d/10iFxnk_GBPRTyzZTtbQYNgnlWIQVZXr7/view"></Item>
         </Carousel>
         </div>
     );

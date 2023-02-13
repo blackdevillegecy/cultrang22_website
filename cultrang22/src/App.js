@@ -10,6 +10,7 @@ import FineArts from './components/Events/components/Fine-Arts/FineArts';
 import Dramatics from './components/Events/components/Dramatics/Dramatics';
 import DDA from './components/Events/components/DDA/DDA';
 import Fashion from './components/Events/components/Fashion/Fashion';
+import Promo from './components/Events/components/Passes/Promo';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/event-dda" element={<DDA />} />
           <Route exact path="/event-fashion" element={<Fashion />} />
           <Route exact path="/event-literary-arts" element={<LiteraryArts />} />
+          <Route exact path="/coming-soon" element={<Promo />} />
         </Routes>
       </Router>
     </div>

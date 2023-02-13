@@ -13,24 +13,24 @@ export default function Navbar () {
                 <div><a href="#home">HOME</a></div>
                 <div><a href="#about">ABOUT</a></div>
                 <div><a href="#events">EVENTS</a></div>
-                <div><a href="#merchandise">MERCHANDISE</a></div>
-                <div><a href="#sponsers">SPONSORS</a></div>
-                <div>RULEBOOK</div>
+                {/* <div><a href="#merchandise">MERCHANDISE</a></div> */}
+                {/* <div><a href="#sponsers">SPONSORS</a></div> */}
+                <Link to="https://drive.google.com/file/d/10W-xcnD-Enjf7owO4yoajZh6DGe7vJVL/view?usp=drivesdk"><div>RULEBOOK</div></Link>
                 <div><a href="#contact">CONTACT US</a></div>
             </div>
             <div className="Navbar-mobile">
-                <div>HOME</div>
-                <div>EVENTS</div>
-                <div>RULEBOOK</div>
-                <div>MERCHANDISE</div>
+                {/* <div>MERCHANDISE</div> */}
             {toggleMenu
             ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
             : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
             {toggleMenu && (
                 <div>
-                    <div>ABOUT</div>
-                    <div>SPONSORS</div>
-                    <div>CONTACT US</div>
+                    <div><a href="#home">HOME</a></div>
+                        <div><a href="#events">EVENTS</a></div>
+                        <Link to="https://drive.google.com/file/d/10W-xcnD-Enjf7owO4yoajZh6DGe7vJVL/view?usp=drivesdk"><div>RULEBOOK</div></Link>
+                    <div><a href="#about">ABOUT</a></div>
+                    {/* <div>SPONSORS</div> */}
+                    <div><a href="#contact">CONTACT US</a></div>
                 </div>
             )}
             </div>

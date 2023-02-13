@@ -14,7 +14,7 @@ export default function Music() {
     return (
         <div className="Event-Music" >
             <Carousel breakPoints={breakPoints} enableSwipe={true} enableMouseSwipe={true} >
-            <Item link="https://res.cloudinary.com/dwjesc65k/image/upload/v1676053873/cultrang%2723/Poster_symphony_herjr9.png" registration="https://forms.gle/BeCVZQzjdk4uxEUa8" rulebook="https://drive.google.com/file/d/1-RNqB6x8-lLvEU8mKtcRoFWlSDZ7ZCl_/view"></Item>
+            <Item link="https://res.cloudinary.com/dwjesc65k/image/upload/v1676053873/cultrang%2723/Poster_symphony_herjr9.png" registration="https://forms.gle/W8HcHiGHwE1DizQt7" rulebook="https://drive.google.com/file/d/1-N6dYXGTW6m-qRCMaUBx_dfNagrG9rxu/view"></Item>
             <Item link="https://res.cloudinary.com/dwjesc65k/image/upload/v1676053869/cultrang%2723/Poster_cascading_amps_fnbvrs.png" registration="https://forms.gle/teUisrijbpWtkrb79" rulebook="https://drive.google.com/file/d/1-OUpzROWGZYbXRO3qDEXG3GVYuMdKNhT/view"></Item>
         </Carousel>
         </div>

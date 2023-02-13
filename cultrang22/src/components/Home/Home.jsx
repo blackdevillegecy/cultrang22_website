@@ -12,11 +12,11 @@ export default function Home () {
             {/* <div className="Home-text">PLAY|PAUSE|REWIND</div> */}
             <Link to="https://forms.gle/6phvmJB1GpxQHU5R8"><div className="Home-Accomodation"><div>Accomodation</div></div></Link>
             <Link to="https://forms.gle/shpxwvhVZp8nsaT58"><div className="Home-CA"><div>CA Portal</div></div></Link>
-            <div className="Home-Passes"><div>Passes</div></div>
+            <Link to="/coming-soon"> <div className="Home-Passes"><div>Passes</div></div></Link>
             <div className="Home-social-media">
                 <Link to="https://in.linkedin.com/company/cultrang"><div><LinkedInIcon sx={{fontSize: '30px'}} /></div></Link>
                 <Link to="https://www.instagram.com/cultrangiitgoa/?hl=en"><div><InstagramIcon sx={{fontSize: '30px'}} /></div></Link>
-                <div><YouTubeIcon sx={{fontSize: '30px'}} /></div>
+                <Link to="https://www.youtube.com/watch?v=ciJZMCwiPrA"><div><YouTubeIcon sx={{fontSize: '30px'}} /></div></Link>
             </div>
         </div>
     );

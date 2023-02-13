@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Rajdhani:wght@500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: #080909; */
+}
+
+.home {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  /* padding-top: 7.5vh; */
+  align-items: center;
+}
+
+.biglogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.biglogo img {
+  width: 1000px;
+  height: 375px;
+  /* border: 1px solid red; */
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.type-text {
+  color: white;
+  letter-spacing: 7px;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(./text-back.webp);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span {
+  letter-spacing: 5px;
+  font-size: 75px;
+  font-family: "Bebas Neue"
+}
+
+.linktree-link {
+  color: white;
+  border: 2px solid white;
+  width: fit-content;
+  padding: 2vh 2.5vw;
+  border-radius: 4px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 25px;
+  transition: 0.25s;
+  display: flex;
+  margin: auto;
+}
+
+.register {
+  /* border: 1px solid red; */
+  justify-content: center;
+}
+
+.linktree-link:hover {
+  opacity: 0.8;
+  background-color: #ee4bee;
+  border: 2px solid #ee4bee;
+  color: black;
+}
+
+@media only screen and (max-width: 1380px) {
+  .biglogo img {
+    width: 900px;
+    height: 350px;
+    /* transform: translate(-50%,-50%); */
+  }
+
+  .type-text {
+    font-size: 25px;
+    top: 50%;
+  }
+  span {
+    font-size: 55px;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+
+  .biglogo img {
+    width: 800px;
+    height: 300px;
+    /* transform: translate(-50%,-50%); */
+  }
+  .span {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .biglogo img {
+    width: 670px;
+    height: 230px;
+  }
+
+  .type-text {
+    font-size: 20px;
+  }
+  .type-text span {
+    font-size: 45px;
+  }
+
+  .linktree-link {
+    font-size: 20px;
+    margin-bottom: 5vw;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+  }
+
+}
+
+
+@media screen and (max-width: 700px) {
+  .biglogo img {
+    width: 600px;
+    height: 200px;
+  }
+
+  .type-text {
+    font-size: 18px;
+  }
+  .type-text span {
+    font-size: 42px;
+  }
+
+  .linktree-link {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 630px) {
+  .biglogo img {
+    width: 550px;
+    height: 180px;
+  }
+
+}
+
+
+@media screen and (max-width: 550px) {
+  .biglogo img {
+    width: 500px;
+    height: 160px;
+  }
+
+  .type-text {
+    font-size: 15px;
+  }
+  .type-text span {
+    font-size: 40px;
+  }
+
+  .linktree-link {
+    font-size: 15px;
+    
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+  }
+
+}
+
+
+@media screen and (max-width: 500px) {
+  .biglogo img {
+    width: 420px;
+    height: 140px;
+  }
+
+  .type-text {
+    font-size: 10px;
+  }
+  .type-text span {
+    font-size: 35px;
+  }
+
+  .linktree-link {
+    font-size: 15px;
+    
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .biglogo img {
+    width: 350px;
+    height: 120px;
+    margin-bottom: 2vw;
+  }
+
+  .type-text {
+    font-size: 8px;
+  }
+  .type-text span {
+    font-size: 30px;
+  }
+
+  .linktree-link {
+    font-size: 15px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .biglogo img {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 3vw;
+  }
+
+  .type-text {
+    font-size: 8px;
+    margin-bottom: 4vw;
+  }
+  .type-text span {
+    font-size: 28px;
+  }
+
+  .linktree-link {
+    font-size: 13px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+}
