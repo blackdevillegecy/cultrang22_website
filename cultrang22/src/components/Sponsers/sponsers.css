@@ -2,7 +2,7 @@
 
 .Sponsers {
     display: block;
-    height: 150vh;
+    height: 225vh;
     /* border: 1px solid white; */
     align-items: center;
     justify-content: center;
@@ -37,6 +37,12 @@
 .Sponsers-social-media div{
     cursor: pointer;
 }
+
+.rec.rec-arrow {
+    color: white;
+}
+
+
 
 @media screen and (max-width: 1000px) {
     .Sponsers-heading {

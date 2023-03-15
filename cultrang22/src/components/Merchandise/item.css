@@ -1,0 +1,65 @@
+
+.link1, .link2 {
+    height: 400px;
+    margin-bottom: 2.5vh;
+}
+
+.ItemMerch>:nth-child(2) {
+    display: none;
+}
+
+@media screen and (max-width: 1330px) {
+    .ItemMerch>:first-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ItemMerch>:first-child img {
+        width: 90vw;
+        height: 60vh;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .ItemMerch>:first-child img {
+        width: 90vw;
+        height: 50vh;
+    }
+}
+@media screen and (max-width: 890px) {
+    .ItemMerch>:first-child img {
+        width: 85vw;
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .ItemMerch>:first-child{
+        display: none;
+    }
+    .ItemMerch>:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: block;
+    }
+
+    .ItemMerch>:nth-child(2) img {
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .ItemMerch>:nth-child(2) img {
+        width: 300px;
+        height: auto;
+    }
+    
+}
+@media screen and (max-width: 430px) {
+    .ItemMerch>:nth-child(2) img {
+        width: 250px;
+        height: auto;
+    }
+    
+}

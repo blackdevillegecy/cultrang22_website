@@ -1,10 +1,17 @@
 .Events {
-    height: 120vh;
+    height: 110vh;
     /* border: 1px solid white; */
     position: relative;
     padding-top: 12.5vh;
     padding-left: 1vw;
     padding-right: 1vw;
+}
+
+@media screen and (max-width: 450px) {
+  .Events {
+    height: 105vh;
+    padding-top: 7.5vh;
+  }
 }
   
 .Events-social-media {
@@ -15,7 +22,8 @@
   justify-content: center;
   gap: 4px;
   /* border: 1px solid red; */
-  margin: 15vh;
+  margin-top: 15vh;
+
 }
 
 .Events-social-media div{
@@ -29,11 +37,12 @@
   font-size: 70px;
   color: #FFFFFF;
   text-align: center;
-  margin-bottom: 10vh;
+  margin-bottom: 7.5vh;
 }
 
 /* square buttons */
 .rec.rec-arrow {
+  color: white;
   border-radius: 0;
 }
 /* round buttons on hover */
@@ -54,12 +63,5 @@
 @media screen and (max-width: 810px) {
   .Events-title {
       font-size: 50px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .Events{
-    padding-top: 25vh;
-
   }
 }

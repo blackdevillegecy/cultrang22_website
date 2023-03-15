@@ -22,6 +22,7 @@
 
 .About-MoonPhasePic img {
     width: 100%;
+    height: auto;
 }
 
 .About-Text1 {
@@ -50,10 +51,12 @@
 
 .About-PPR img {
     width: 900px;
+    height: auto;
 }
 
 .About-EarthPic img {
     width: 25%;
+    height: auto;
 }
 
 .About-social-media {
@@ -100,5 +103,12 @@
 
     .About-social-media {
         margin-bottom: 5vh;
+    }
+}
+
+@media screen and (max-width: 450px) and (max-height: 900px) {
+    .About {
+        padding-top: 10vh;
+        height: 185vh;
     }
 }

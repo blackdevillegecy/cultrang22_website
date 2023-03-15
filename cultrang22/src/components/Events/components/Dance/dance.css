@@ -1,6 +1,6 @@
 .Event-Dance {
     color: white;
-    height: 98vh;
+    height: 90vh;
     /* border: 1px solid red; */
     display: flex;
     align-items: center;
@@ -9,4 +9,29 @@
 
 button.rec-dot {
     visibility: hidden;
+}
+
+.details div{
+    /* border: 1px solid red; */
+    margin-top: 5vh;
+}
+
+img {
+    height: 270px;
+}
+
+@media screen and (max-width: 450px) {
+    .details {
+        display: block;
+    }
+
+    .details div {
+        margin-top: 5vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    img {
+        height: 200px;
+    }
 }

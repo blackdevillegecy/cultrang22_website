@@ -17,19 +17,20 @@ span {
     text-align: center;
     font-family: 'Work Sans';
     font-size: 70px;
-    margin-bottom: 5vh;
+    margin-bottom: 2.5vh;
 }
 
 .Merchandise-items {
     /* border: 1px solid white; */
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 5vh;
 }
 
-.Merchandise-items img {
+/* .Merchandise-items img {
     width: 30vw;
     height: 40vw;
-}
+} */
 
 .Merchandise-social-media {
     color: #881487;
@@ -40,6 +41,7 @@ span {
     gap: 4px;
     /* border: 1px solid red; */
     margin-top: 2.5vh;
+    margin-bottom: 5vh;
 }
 
 .Merchandise-social-media div {
@@ -55,5 +57,11 @@ span {
   @media screen and (max-width: 810px) {
     .Merchandise-heading {
         font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .Merchandise {
+        padding-top: 30vh;
     }
 }

@@ -16,17 +16,17 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Routes>
-          <Route exact path="/" element={<MainPage />} />
-          <Route exact path="/event-music" element={<Music />} />
-          <Route exact path="/event-dramatics" element={<Dramatics />} />
-          <Route exact path="/event-dance" element={<Dance />} />
-          <Route exact path="/event-fun" element={<Fun />} />
-          <Route exact path="/event-fine-arts" element={<FineArts />} />
-          <Route exact path="/event-dda" element={<DDA />} />
-          <Route exact path="/event-fashion" element={<Fashion />} />
-          <Route exact path="/event-literary-arts" element={<LiteraryArts />} />
-          <Route exact path="/coming-soon" element={<Promo />} />
+        <Routes >
+          <Route exact path="/~cultrang" element={<MainPage />} />
+          <Route exact path="/~cultrang/event-music" element={<Music />} />
+          <Route exact path="/~cultrang/event-dramatics" element={<Dramatics />} />
+          <Route exact path="/~cultrang/event-dance" element={<Dance />} />
+          <Route exact path="/~cultrang/event-fun" element={<Fun />} />
+          <Route exact path="/~cultrang/event-fine-arts" element={<FineArts />} />
+          <Route exact path="/~cultrang/event-dda" element={<DDA />} />
+          <Route exact path="/~cultrang/event-fashion" element={<Fashion />} />
+          <Route exact path="/~cultrang/event-literary-arts" element={<LiteraryArts />} />
+          <Route exact path="/~cultrang/coming-soon" element={<Promo />} />
         </Routes>
       </Router>
     </div>

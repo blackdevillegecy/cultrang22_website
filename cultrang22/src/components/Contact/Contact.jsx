@@ -13,16 +13,22 @@ export default function Contact () {
                 <div>
                     <div>Divyanshi Govil</div>
                     <br />
+                    <div>Public Relations Head</div>
+                    <br />
                     <div>9407881499</div>
                     <div>divyanshi.govil.20031@iitgoa.ac.in</div>
                 </div>
                 <div>
                     <div>Aryan Tomar</div>
                     <br />
-                    <div>78440010196</div>
+                    <div>Events Co-ordinator</div>
+                    <br />
+                    <div>7840010196</div>
                     <div>aryan.tomar.20031@iitgoa.ac.in</div>
                 </div>
             </div>
+            <br />
+            <br />
             <div className="Contact-social-media">
                 <Link to="https://in.linkedin.com/company/cultrang"><div><LinkedInIcon sx={{fontSize: '30px'}} /></div></Link>
                 <Link to="https://www.instagram.com/cultrangiitgoa/?hl=en"><div><InstagramIcon sx={{fontSize: '30px'}} /></div></Link>

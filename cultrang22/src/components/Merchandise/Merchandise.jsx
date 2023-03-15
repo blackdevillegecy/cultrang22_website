@@ -6,6 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import TypeWriterEffect from "react-typewriter-effect";
 import { Link } from "react-router-dom";
+import Carousal from "./Carousel";
 
 
 export default function Merchandise () {
@@ -13,7 +14,8 @@ export default function Merchandise () {
         <div className="Merchandise" id="merchandise">
             <div className="Merchandise-heading">merchandise / ಸರಕು</div>
             <div className="Merchandise-items">
-            <span>Coming Soon</span>
+            {/* <span>Coming Soon</span> */}
+            <Carousal enableSwipe={false} />
             </div>
             <div className="Merchandise-social-media">
                 <Link to="https://in.linkedin.com/company/cultrang"><div><LinkedInIcon sx={{fontSize: '30px'}} /></div></Link>
